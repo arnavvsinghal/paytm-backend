@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const { Schema, connect, model } = mongoose;
 try{
   connect(
-    process.env.MONGO_URL
+    "mongodb+srv://arnavsinghal1234:hBCACFrtJ7ZYYch7@cluster0.xffyp.mongodb.net/"
   );
 
 } catch(err){
