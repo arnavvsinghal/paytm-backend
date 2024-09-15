@@ -1,3 +1,3 @@
 module.exports = {
-	JWT_SECRET: "arnav's_secret"
+	JWT_SECRET: process.env.JWT
 }
